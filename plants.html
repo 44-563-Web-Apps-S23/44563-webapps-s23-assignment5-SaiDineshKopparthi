@@ -18,6 +18,26 @@
 
 <body>
   <h1>Plants by Sai Dinesh Kopparthi</h1>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#plantNavbarSupportedContent" aria-controls="plantNavbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="plantNavbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-link active"><a class="nav-link" href="basic.html">Basic</a></li>
+            <li class="nav-link active"><a class="nav-link" href="advanced.html">Advanced</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div><br>
+
   <div class="container">
     <div class="row">
       <div class="col-sm-2">K</div>
@@ -34,14 +54,15 @@
       <div class="col-md">Acacia</div>
       <div class="col-md">Rhamnus</div>
       <div class="col-md">Tetradium</div>
-    </div>
+    </div><br>
+    <p>
+      As the screensize is reduced the plant row breaks first. <b>col-md</b> will help keep the content
+      horizontally stacked only till the screen width is <b>768px</b> and then after the contents will be stacked
+      vertically.
+      Whereas the <b>col-sm-2</b> will stack the content horizontally till the screen width is <b>576px</b>.
+    </p>
   </div>
-  <p>
-    As the screensize is reduced the plant row breaks first. <b>col-md</b> will help keep the content
-    horizontally stacked only till the screen width is <b>768px</b> and then after the contents will be stacked
-    vertically.
-    Whereas the <b>col-sm-2</b> will stack the content horizontally till the screen width is <b>576px</b>.
-  </p>
+
   <div class="container">
     <img class="img-fluid" src="images/Kalanchoe.jpg" height="350px" width="350px">
     <img class="img-fluid" src="images/Pachystegia.jpg" height="350px" width="350px">
@@ -134,5 +155,6 @@
     </ul>
   </div>
 </div>
+
 
 </html>
